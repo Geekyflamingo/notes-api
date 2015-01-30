@@ -3,28 +3,28 @@ class NotesController < ApplicationController
 
   def index
     @notes = Note.all
-    render json: {notes: @notes}
+    render json: @notes
   end
 
   def create
     @note = Note.new(note_params)
     @note.save
-    render json: {note: @note}
+    render json: @note
   end
 
   def show
-    render json: {note: @note}
+    render json: @note
   end
 
   def update
     @note.update(note_params)
     @note.save
-    render json: {note: @note}
+    render json: @note
   end
 
   def destroy
     @note.destroy
-    render json: {note: @note}
+    render json: @note
   end
 
   private

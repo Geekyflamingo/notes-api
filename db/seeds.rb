@@ -19,8 +19,7 @@ body: 'Apple pie sesame snaps chocolate danish I love muffin. I love jelly ginge
 
 Note.create!(
 title: 'Oviraptor',
-body: 'Cookie cheesecake marshmallow gummi bears. Icing macaroon brownie sugar plum chocolate tootsie roll cookie marzipan muffin. Wafer dessert muffin lollipop sugar plum jujubes candy liquorice sweet roll. Jelly beans brownie halvah macaroon bear claw bear claw liquorice.'
-)
+body: 'Cookie cheesecake marshmallow gummi bears. Icing macaroon brownie sugar plum chocolate tootsie roll cookie marzipan muffin.'
 
 Note.create!(
 title: 'Gallimimus Kileskus Eoceratops',
